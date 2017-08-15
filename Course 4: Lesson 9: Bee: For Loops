@@ -1,0 +1,9 @@
+Use a loop to collect the nectar from each flower.
+
+Program:
+#######
+
+for (var count = 0; count < 5; count++) {
+  moveForward();
+  getNectar();
+}
