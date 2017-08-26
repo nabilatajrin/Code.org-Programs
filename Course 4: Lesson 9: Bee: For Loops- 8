@@ -1,0 +1,8 @@
+var counter;
+
+for (counter = 3; counter <= 15; counter += 3) {
+  moveForward();
+  for (var count = 0; count < counter; count++) {
+    getNectar();
+  }
+}
