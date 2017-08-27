@@ -1,0 +1,11 @@
+var counter;
+
+for (counter = 15; counter >= 3; counter -= 3) {
+  turnLeft();
+  moveForward();
+  turnRight();
+  moveForward();
+  for (var count = 0; count < counter; count++) {
+    getNectar();
+  }
+}
