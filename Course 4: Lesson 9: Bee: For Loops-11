@@ -1,0 +1,12 @@
+var counter;
+
+for (counter = 14; counter >= 2; counter -= 4) {
+  turnRight();
+  var repeat_end = counter / 2;
+  for (var count = 0; count < repeat_end; count++) {
+    moveForward();
+  }
+  for (var count2 = 0; count2 < counter; count2++) {
+    getNectar();
+  }
+}
