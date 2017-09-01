@@ -1,0 +1,8 @@
+var counter;
+
+for (counter = 20; counter <= 200; counter += 20) {
+  for (var count = 0; count < 3; count++) {
+    moveForward(counter);
+    turnLeft(120);
+  }
+}
