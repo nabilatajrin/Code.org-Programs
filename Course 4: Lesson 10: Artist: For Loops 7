@@ -1,0 +1,8 @@
+var counter;
+
+penWidth(1);
+penColour('#0000cd');
+for (counter = 15; counter <= 300; counter += 2) {
+  moveForward(counter);
+  turnRight(89);
+}
