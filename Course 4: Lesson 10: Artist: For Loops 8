@@ -1,0 +1,8 @@
+var counter;
+
+for (counter = 3; counter <= 10; counter++) {
+  for (var count = 0; count < counter; count++) {
+    moveForward(100);
+    turnRight(360 / counter);
+  }
+}
