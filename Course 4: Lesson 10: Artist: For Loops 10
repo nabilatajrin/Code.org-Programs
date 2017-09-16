@@ -1,0 +1,13 @@
+var counter;
+
+turnRight(60);
+for (var count = 0; count < 3; count++) {
+  moveForward(40);
+  turnLeft(120);
+}
+for (counter = 6; counter <= 20; counter += 2) {
+  for (var count2 = 0; count2 < counter; count2++) {
+    moveForward(40);
+    turnLeft(360 / (counter - 1));
+  }
+}
