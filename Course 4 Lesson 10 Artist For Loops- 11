@@ -1,0 +1,23 @@
+var counter;
+
+turnRight(255);
+jumpToXY(30, 50);
+for (counter = 1; counter <= 100; counter += 10) {
+  turnRight(90);
+  moveForward(100);
+  for (var count = 0; count < counter; count++) {
+    penPattern("swirlyLine");
+    moveForward(counter);
+    turnLeft(counter + 70);
+  }
+  for (var count2 = 0; count2 < 8; count2++) {
+    penPattern("swirlyLine");
+    moveForward(counter);
+    turnRight(counter + 20);
+  }
+  for (var count3 = 0; count3 < 8; count3++) {
+    penPattern("swirlyLine");
+    moveForward(counter);
+    turnRight(counter + 40);
+  }
+}
