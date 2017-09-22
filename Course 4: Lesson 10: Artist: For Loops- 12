@@ -1,0 +1,23 @@
+var counter;
+
+for (counter = 1; counter <= 16; counter++) {
+  penWidth(1);
+  penColour('#843179');
+  penPattern("DEFAULT");
+  for (var count = 0; count < 10; count++) {
+    moveForward(25);
+    turnRight(90);
+  }
+  for (var count2 = 0; count2 < 5; count2++) {
+    moveForward(25);
+    turnRight(70.5);
+  }
+  for (var count3 = 0; count3 < 2.5; count3++) {
+    moveForward(25);
+    turnRight(50);
+  }
+  for (var count4 = 0; count4 < 1.25; count4++) {
+    moveForward(25);
+    turnRight(30.5);
+  }
+}
