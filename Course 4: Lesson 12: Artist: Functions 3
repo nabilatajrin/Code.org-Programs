@@ -1,0 +1,11 @@
+function draw_a_square() {
+  for (var count = 0; count < 4; count++) {
+    moveForward(100);
+    turnLeft(90);
+  }
+}
+
+for (var count2 = 0; count2 < 3; count2++) {
+  draw_a_square();
+  jumpForward(120);
+}
