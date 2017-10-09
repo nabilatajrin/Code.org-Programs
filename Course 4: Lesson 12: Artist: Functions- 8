@@ -1,0 +1,16 @@
+function draw_a_line_of__squares() {
+  for (var count = 0; count < 6; count++) {
+    draw_a_square_20();
+  }
+}
+
+function draw_a_square_20() {
+  penWidth(2);
+  for (var count2 = 0; count2 < 4; count2++) {
+    moveForward(20);
+    turnLeft(90);
+  }
+  jumpForward(20);
+}
+
+draw_a_line_of__squares();
